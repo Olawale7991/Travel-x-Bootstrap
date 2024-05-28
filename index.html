@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div class="main-div">
+    <nav class="navbar navbar-expand-lg navbar-light bg-none">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Booking.com</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">NGN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="usa.JPG" alt=""></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="qtag.JPG" alt=""></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  List your property
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#"><span style="color: black;">Home</span></a></li>
+                  <li><a class="dropdown-item" href="#"><span style="color: black;">Resort</span></a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"><span style="color: black;">Apartment</span></a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex">  
+              <button class="btn btn-outline-success" type="submit">Register</button>
+              <button class="btn btn-outline-success" type="submit">Sign in</button>
+            </form>
+          </div>  
+        </div>
+      </nav>
+      <div class="sec-nav">
+        <h6><a href=""><img src="motor.JPG" alt="">Stays</a></h6>
+        <h6><a href=""><img src="plane.JPG" alt="">Flights</a></h6>
+        <h6><a href=""><img src="car.JPG" alt="">Car Rentals</a></h6>
+        <h6><a href=""><img src="attract.JPG" alt="">Attractions</a></h6>
+        <h6><a href=""><img src="taxi.JPG" alt="">Airport Taxis</a></h6>
+      </div>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="first slide (2).jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="second slide.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="third slide.jpeg" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="front">
+          <h2>Pack the whole Toybox</h2>
+          <h4>Unwind and stretch in a vacation home </h4>
+          <button class="discover">Discover vacation rentals</button>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+    <div class="Check-in">
+      <div class="sec-check">
+        <div id="checks">
+          <p><img src="bed.JPG" alt="">  Where are you going?</p>
+        </div>
+        <div id="checks">
+          <p><img src="cal.JPG" alt="">  Check-in Date - Check-out Date</p>
+        </div>
+        <div id="checks">
+          <p><img src="head.JPG" alt="">  2 Adults - 0 children - 1 room</p>
+        </div>
+          <button class="search">Search</button>
+      </div>
+      </div>
+
+      <h2 style="margin: 6rem 0 5px 8rem; font-size: 25px">Offers</h2>
+      <h6 style="margin: 0 0 5px 8rem; font-size: 15px; color: rgba(128, 128, 128, 0.829);">Promotions, deals and special offer for you</h6>
+    
+      <div class="planning">
+        <div class="first-plan">
+            <div>
+            <h3>Planning a trip to the 2024 Summer <br> Games?</h3>
+            <p>Brussels is a quick train ride from all the action </p>
+            <button class="explore">Explore Brussels</button>
+          </div>
+          <img src="paris.png" alt="">
+        </div>
+        <div class="sec-plan">
+          <h3>Seize the moment!</h3>
+          <p>save 15% or more when you bookand stay before October 1, <br>2024</p>
+          <button class="find">Find Gateway deals</button>
+        </div>
+      </div>
+
+      <h4 style="margin-left: 8rem; margin-bottom: 20px; font-weight: bold;">Browse by property type</h4>
+      <div class="container">
+        <div class="d-flex">
+          <div class="col-log-3">
+            <img src="third slide.jpeg" alt="">
+            <p style="font-weight: bold ;">Hotels</p>
+          </div>
+          <div class="col-log-3">
+            <img src="apart.jpeg" alt="">
+            <p style="font-weight: bold">Apartments</p>
+          </div>
+          <div class="col-log-3">
+            <img src="resort.jpeg" alt="">
+            <p style="font-weight: bold">Resorts</p>
+          </div>
+          <div class="col-log-3">
+            <img src="villa.jpeg" alt="">
+            <p style="font-weight: bold">Villas</p>
+          </div>
+        </div>
+      </div>
+
+      <h4 style="margin-left: 8rem; margin-bottom: 30px; font-weight: bold;">Trending destinations <p style="font-size: 15px; color: rgba(128, 128, 128, 0.623);">Most popular choices for travelers from Nigeria</p></h4>
+     
+      <div class="lagos-div">
+        <div class="lagos">
+          <h4><span style="padding-right: 10px;">Lagos</span><img src="nig logo.png" alt=""></h4>
+        </div>
+        <div class="abuja">
+          <h4><span style="padding-right: 10px;">Abuja</span><img src="nig logo.png" alt=""></h4>
+        </div>
+      </div>
+
+      <div class="lagos-divs">
+        <div class="ikeja">
+          <h4><span style="padding-right: 10px;">Ikeja</span><img src="nig logo.png" alt=""></h4>
+        </div>
+
+        <div class="london">
+          <h4><span style="padding-right: 10px;">London</span><img src="./img/eng logo.png" alt=""></h4>
+        </div>
+
+        <div class="paris">
+          <h4><span style="padding-right: 10px;">Paris</span><img src="./img/france logo.png" alt=""></h4>
+      </div>
+      </div>
+
+      <h2 class="quick">Quick and easy trip planner 
+      </h2>
+      <h5 class="pick">Pick a vibe and explore the top destinations in Nigeria
+      </h5>
+      <div class="buts">
+        <button class="city">🏟 City</button>
+        <button class="romance">❤  Romance</button>
+      </div>
+
+      <div class="kilo">
+        <section class="kilo-div">
+          <img src="lagos.jpg" alt="">
+          <h6>Lagos</h6>
+          <p>10 km away</p>
+        </section>
+        <section class="kilo-div">
+          <img src="img/ikeja.jpg" alt="">
+          <h6>Ikeja</h6>
+          <p>19 km away</p>
+        </section>
+      </div>
+      
+      <h2 class="quick">Explore Nigeria
+      </h2>
+      <h5 class="pick">These popular destinations have a lot to offer
+      </h5>
+      <div class="kilos">
+        <section class="kilo-div">
+          <img src="abuja.jpg" alt="">
+          <h6>Abuja</h6>
+          <p>225 properties</p>
+        </section>
+        <section class="kilo-div">
+          <img src="img/ikeja.jpg" alt="">
+          <h6>Ikeja</h6>
+          <p>100 properties</p>
+        </section>
+        <section class="kilo-div">
+          <img src="lagos.jpg" alt="">
+          <h6>Lagos</h6>
+          <p>576 properties</p>
+        </section>
+        <section class="kilo-div">
+          <img src="img/ibadan.jpg" alt="">
+          <h6>Ibadan</h6>
+          <p>45 properties</p>
+        </section>
+        <section class="kilo-div">
+          <img src="/img/lekki.jpg" alt="">
+          <h6>Lekki</h6>
+          <p>69 properties</p>
+        </section>
+        <section class="kilo-div">
+          <img src="./img/benin.jpg" alt="">
+          <h6>Benin City</h6>
+          <p>32 properties</p>
+        </section>
+      </div>
+
+      <h4 style="margin-left: 8rem; font-weight: bold;">Get inspiration for your next trip
+      </h4>
+
+      <div class="trip">
+        <div class="trip-div"><h5>
+          5 of the best hotels in Los Angeles</h5> 
+          <p>From Hollywood to Beverly Hills discover 5 of the best hotels in Los Angeles <br> for your stay</p> </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./img/orlando.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">The 6 best Orlando hotels for families <br>
+             <span style="font-size: 13px; color: rgba(128, 128, 128, 0.541);">Discover the best Orlando hotels for families for your vacation.</span> </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./img/ski.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">5 best ski towns around the world 
+            <span style="font-size:13px; color: rgba(128, 128, 128, 0.555);">Discover a winter wonderland in these charming ski destinations</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="quick">Stay at our top unique properties
+      </h2>
+      <h5 class="pick">From castles and villas to boats and igloos, we have it all
+      </h5>
+      <div class="guest-div">
+        <div class="card guest" style="width: 18rem;">
+          <img src="./img/miasto.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Cheval Three Quays 
+            <span style="font-size:13px; color: rgba(128, 128, 128, 0.555);"><br>
+              City of London, United Kingdom,  <br> 
+              <span style="background-color: rgb(0,59,149); color: white; padding: 3px;">8.8</span>   Excellent · 715 reviews</span> <br> <br>
+              <h6 style="font-size: 11px; padding-left: 4rem;">Starting from
+                <span style="font-size: 15px; font-weight: bold;">NGN 182,828</span></h6>
+            </p>
+          </div>
+        </div>
+        <div class="card guest" style="width: 18rem;">
+          <img src="./img/7seasons.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Aparthotel Stare Miasto
+            <span style="font-size:13px; color: rgba(128, 128, 128, 0.555);"><br>
+              Old Town, Poland, Kraków <br> 
+              <span style="background-color: rgb(0,59,149); color: white; padding: 3px;">7.8</span>   Excellent · 2,908 reviews</span> <br> <br>
+              <h6 style="font-size: 11px; padding-left: 4rem;">Starting from
+                <span style="font-size: 15px; font-weight: bold;">NGN 382,176</span></h6>
+            </p>
+          </div>
+        </div>
+        <div class="card guest" style="width: 18rem;">
+          <img src="./img/leman.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">7Seasons Apartments Budapest
+            <span style="font-size:13px; color: rgba(128, 128, 128, 0.555);"><br>
+              06. Terézváros, Hungary, Budapest <br> 
+              <span style="background-color: rgb(0,59,149); color: white; padding: 3px;">9.8</span>   Excellent · 11,141 reviews</span> <br> <br>
+              <h6 style="font-size: 11px; padding-left: 4rem;">Starting from
+                <span style="font-size: 15px; font-weight: bold;">NGN 620,128</span></h6>
+            </p>
+          </div>
+        </div>
+        <div class="card guest" style="width: 18rem;">
+          <img src="./img/cheval.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Leman Locke
+            <span style="font-size:13px; color: rgba(128, 128, 128, 0.555);"><br>
+              Tower Hamlets, United Kingdom,  <br> 
+              <span style="background-color: rgb(0,59,149); color: white; padding: 3px;">6.8</span>   Excellent · 1,224 reviews</span> <br> <br>
+              <h6 style="font-size: 11px; padding-left: 4rem;">Starting from
+                <span style="font-size: 15px; font-weight: bold;">NGN 199,273</span></h6>
+            </p>
+          </div>
+        </div>
+      </div>
+      <h2 class="quick">Home guest loves
+      </h2>
+      
+      <div class="guest-div">
+        <div class="card guest" style="width: 18rem;">
+          <img src="./img/gytja.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Gyttja Västergårds
+            <span style="font-size:13px; color: rgba(128, 128, 128, 0.555);"><br>
+              Finland, Lillandet<br> 
+              <span style="background-color: rgb(0,59,149); color: white; padding: 3px;">9.3</span>   Excellent · 198 reviews</span> <br> <br>
+              <h6 style="font-size: 11px; padding-left: 4rem;">Starting from
+                <span style="font-size: 15px; font-weight: bold;">NGN 179,819</span></h6>
+            </p>
+          </div>
+        </div>
+        <div class="card guest" style="width: 18rem;">
+          <img src="./img/walds.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Waldschenke Stendenitz
+            <span style="font-size:13px; color: rgba(128, 128, 128, 0.555);"><br>
+              Germany, Neuruppinw <br> 
+              <span style="background-color: rgb(0,59,149); color: white; padding: 3px;">8.7</span>   Excellent · 347 reviews</span> <br> <br>
+              <h6 style="font-size: 11px; padding-left: 4rem;">Starting from
+                <span style="font-size: 15px; font-weight: bold;">NGN 302,728</span></h6>
+            </p>
+          </div>
+        </div>
+        <div class="card guest" style="width: 18rem;">
+          <img src="./img/habor.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Harbor View
+            <span style="font-size:13px; color: rgba(128, 128, 128, 0.555);"><br>
+              United Kingdom, Isle Of Skye <br> 
+              <span style="background-color: rgb(0,59,149); color: white; padding: 3px;">9.0</span>   Wonderful · 150 reviews</span> <br> <br>
+              <h6 style="font-size: 11px; padding-left: 4rem;">Starting from
+                <span style="font-size: 15px; font-weight: bold;">NGN 401,828</span></h6>
+            </p>
+          </div>
+        </div>
+        <div class="card guest" style="width: 18rem;">
+          <img src="./img/casa.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Casa rural La Marquesa - Cuenca
+            <span style="font-size:13px; color: rgba(128, 128, 128, 0.555);"><br>
+              Spain, Valera de Abajo
+               <br> 
+              <span style="background-color: rgb(0,59,149); color: white; padding: 3px;">8.8</span>   Wonderful · 540 reviews</span> <br> <br>
+              <h6 style="font-size: 11px; padding-left: 4rem;">Starting from
+                <span style="font-size: 15px; font-weight: bold;">NGN 912,828</span></h6>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="genius">
+        <img src="./img/genius.png" alt="">
+       <article class="genius-div">
+        <h4>Get instant discounts</h4>
+        <p style="font-size: 15px;">Just sign into your Booking.com account and look for the blue <br> Genius logo to save</p>
+        <button class="reg">Sign in</button>
+        <button class="regs">Register</button> 
+       </article>
+      </div>
+
+      <div class="genius-pro">
+        <div class="pro">
+          <article class="pros"></article>
+        </div>
+       <article  class="pro-div">
+        <h5>Find Apartment <br>for your next trip</h5>
+        <button class="disc">Discover homes</button>
+       </article>
+       <img src="./img/genius2.png" alt="" class="pro-divs"> 
+      </div>
+      <h2 class="quick">Destinations we love
+      </h2>
+      <div style="margin-left: 8rem; margin-top: 15px;">
+        <button class="city">Regions</button>
+        <button class="romance">Cities</button>
+        <button class="romance">Interest</button>
+      </div>
+
+      <div class="bora">
+        <ul>
+          <li><a href="">Bora Bora <br></a>59 properties</li><br>
+          <li><a href="">Uttar Pradesh
+            <br> </a>4,407 properties</li> <br>
+          <li><a href="">Isle of Wight <br> </a>940 properties</li> <br>
+          <li><a href="">Ras Al Khaimah <br> </a>115 properties</li>
+        </ul>
+        <ul>
+          <li><a href="">Zanzibar <br> 
+            </a>834 properties</li> <br>
+          <li><a href="">Ibiza
+            <br> </a>1,657 properties</li> <br>
+          <li><a href="">Jersey <br> 
+           </a> 89 properties</li> <br>
+          <li><a href="">Cornwall<br> </a>5,285 properties</li>
+        </ul>
+        <ul>
+          <li><a href="">Phuket Province <br>
+            </a> 5,501 properties</li> <br>
+          <li><a href="">Mykonos
+            <br> </a>1,460 properties</li> <br>
+          <li><a href="">Lake District <br> 
+           </a> 2,409 properties</li> <br>
+          <li><a href="">Guernsey<br> </a> 61 properties</li> 
+        </ul>
+        <ul>
+          <li><a href="">Bali <br> 
+            </a> 12,696 properties</li> <br>
+          <li><a href="">Hawaii
+            <br> </a>5,460 properties</li><br>
+          <li><a href="">England <br> 
+            </a>72,409 properties</li> <br>
+          <li><a href="">Bihar<br> </a>762 properties</li>
+        </ul>
+        <ul>
+          <li><a href="">Texel <br> 
+            </a> 410 properties</li> <br>
+          <li><a href="">Tenerife
+            <br> </a>9,480 properties</li> <br>
+          <li><a href="">Santorini <br> 
+            </a>1,709 properties</li>
+        </ul>
+      </div>
+      <div class="stay">
+        <h4>Stay in the know</h4>
+        <h6>Sign up to get marketing emails from Booking.com, including promotions, rewards, travel experiences, and information about Booking.com and <br> Booking.com Transport Limited’s products and services.</h6>
+        <form action="">
+          <input type="email" placeholder="Your email address" class="input">
+          <button class="sub">Subscribe</button>
+          <p>You can opt out anytime. See our <a href=""> privacy statement.</a></p>
+        </form>
+      </div>
+      <div class="list">
+        <button class="butts">List your properties</button>
+        <article class="art"></article>
+        <ul class="uls">
+          <li><a href="">Mobile version</a></li>
+          <li><a href="">Your account</a></li>
+          <li><a href="">Make changes online to your booking</a></li>
+          <li><a href="">Customers Service Help</a></li>
+          <li><a href="">Become an affliate</a></li>
+          <li><a href="">Booking.com for Business</a></li>
+        </ul>
+      </div>
+
+      <div class="bora">
+        <ul>
+          <li><a href="">Countries</a></li><br>
+          <li><a href="">Regions </a></li> <br>
+          <li><a href="">Cities </a></li> <br>
+          <li><a href="">Districs </a> </li> <br>
+          <li><a href="">Airports  </a> </li><br>
+          <li><a href="">Districts  </a></li> <br>
+        </ul>
+        <ul>
+          <li><a href="">Zanzibar <br> 
+            </a>834 properties</li> <br>
+          <li><a href="">Ibiza
+            <br> </a>1,657 properties</li> <br>
+          <li><a href="">Jersey <br> 
+           </a> 89 properties</li> <br>
+          <li><a href="">Cornwall<br> </a>5,285 properties</li>
+        </ul>
+        <ul>
+          <li><a href="">Phuket Province <br>
+            </a> 5,501 properties</li> <br>
+          <li><a href="">Mykonos
+            <br> </a>1,460 properties</li> <br>
+          <li><a href="">Lake District <br> 
+           </a> 2,409 properties</li> <br>
+          <li><a href="">Guernsey<br> </a> 61 properties</li> 
+        </ul>
+        <ul>
+          <li><a href="">Bali <br> 
+            </a> 12,696 properties</li> <br>
+          <li><a href="">Hawaii
+            <br> </a>5,460 properties</li><br>
+          <li><a href="">England <br> 
+            </a>72,409 properties</li> <br>
+          <li><a href="">Bihar<br> </a>762 properties</li>
+        </ul>
+        <ul>
+          <li><a href="">Texel <br> 
+            </a> 410 properties</li> <br>
+          <li><a href="">Tenerife
+            <br> </a>9,480 properties</li> <br>
+          <li><a href="">Santorini <br> 
+            </a>1,709 properties</li>
+        </ul>
+      </div>
+      <footer>
+        <h6 style="text-align: center;"><a href="">Extranet Log-in</a></h6>
+        <p style="font-size: 12px; padding-left: 8rem;">Copyright © 1996–2024 Booking.com™. All rights reserved.
+          <p style="font-size: 12px; text-align: center;">
+            Booking.com is part of Booking Holdings Inc., the world leader in online travel and related services.
+          </p>
+        </p>
+      </footer>
+</body>
+</html>
